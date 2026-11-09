@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "pullmepls",
+	"version": "${version}",
+	"name": "PullMePls",
+	"description": "Client-side ender pearl stasis bot. Registered players type a chat command to make the bot flip the trapdoor that releases their pearl. Config GUI on Right Shift.",
+	"authors": [
+		"Ijau"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/pullmepls/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"pullmepls.client.PullMePlsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
